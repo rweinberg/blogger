@@ -4,6 +4,7 @@ Blogger::Application.routes.draw do
     resources :comments   #use comments as a subresource
   end
   
+  resources :tags
   
   root to: 'articles#index'
   
